@@ -22,7 +22,7 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 
 ![Bild](/pic/FanControl.png)
 
-
+</div>  
 
 ## Hardware
 
