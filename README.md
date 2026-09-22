@@ -19,12 +19,6 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 
 </div>  
 
-| Spalte 1 | Spalte 2 | Spalte 3 |
-| -------- | -------- | -------- |
-| A        | B        | 1        |
-| C        | D        | 2        |
-| E        | F        | 3        |
-| G        | H        | 4        |
 
 ## Hardware
 
@@ -53,17 +47,22 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
               |SCK| GPIO 22|
               |SDA| GPIO 21|
 | -------- | -------- | 
+
+
 | DHT22-Sensor | ESP32 | 
 | -------- | -------- | 
  | VCC| Vin|
               |Data | GPIO 4|
              | GND (|GND|
 | -------- | -------- | 
+
+
 | Piezo-Buzzer | ESP32 | 
 | -------- | -------- | 
                 |Plus (+) | GPIO 18|
               |Minus (-)| GND|
 | -------- | -------- | 
+
 | LED Ampel | ESP32 | 
 | -------- | -------- | 
 |Rot |  GPIO 25|
@@ -71,6 +70,8 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 |Grün| GPIO 27|
 |          GND| GND|
 | -------- | -------- | 
+
+
 |  Relais-Modul  | ESP32 | 
 | -------- | -------- | 
  | VCC| Vin|
@@ -78,6 +79,8 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
               |IN1| GPIO 33|
              | IN2| GPIO 32|
 | -------- | -------- | 
+
+
 |  OLED-Display   | ESP32 | 
 | -------- | -------- | 
 |  VDD |Vin|
@@ -85,17 +88,23 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
               |SDA| GPIO 22|
               |SCL |GPIO 21|
 | -------- | -------- | 
+
+
 |  DHT11-Sensor   | ESP32 |  
 | -------- | -------- | 
       |      VCC (links) |Vin|
         |    Data (Mitte)-|GPIO 4|
            |   GND (rechts) |GND|
 | -------- | -------- | 
+
+
 |  Piezo-Buzzer  | ESP32 |  
 | -------- | -------- | 
   |          Plus (+)|GPIO 18|
            | Minus (-)| GND|
 | -------- | -------- | 
+
+
 |  Relais-Modul | ESP32 |   
 | -------- | -------- | 
            |   VCC |  Vin|  
