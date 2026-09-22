@@ -18,7 +18,7 @@ Das Gehäuse wird aus 3mm Sperrholz gelasert.
 
 ![Bild](/pic/FanControl.png)
 
-</div>  
+ 
 
 
 ## Hardware
@@ -35,7 +35,7 @@ Das Gehäuse wird aus 3mm Sperrholz gelasert.
 |  2 | Hot End Lüfter |
 | 2 | Relais 5V |
 | 1 |  DHT11 oder DHT22 Sensor |
-| 1 | Sperrholzplatten 600x300x3mm  | 
+| 1 | Sperrholzplatte 600x300x3mm  | 
 | 1 | Holzkleber  | 
 | -------- | -------- |  
 
@@ -60,8 +60,8 @@ Das Gehäuse wird aus 3mm Sperrholz gelasert.
 
 | Piezo-Buzzer | ESP32 | 
 | -------- | -------- | 
-|Plus (+) | GPIO 18|
-|Minus (-)| GND|
+|Plus | GPIO 18|
+|Minus | GND|
 | -------- | -------- | 
 
 | LED Ampel | ESP32 | 
@@ -93,16 +93,16 @@ Das Gehäuse wird aus 3mm Sperrholz gelasert.
 
 |  DHT11-Sensor   | ESP32 |  
 | -------- | -------- | 
-|      VCC (links) |Vin|
-|    Data (Mitte)-|GPIO 4|
-|   GND (rechts) |GND|
+|      VCC  |Vin|
+|    Data |GPIO 4|
+|   GND  |GND|
 | -------- | -------- | 
 
 
 |  Piezo-Buzzer  | ESP32 |  
 | -------- | -------- | 
-|          Plus (+)|GPIO 18|
-| Minus (-)| GND|
+|  Plus |GPIO 18|
+| Minus | GND|
 | -------- | -------- | 
 
 
