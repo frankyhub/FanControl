@@ -114,6 +114,9 @@ Das Gehäuse wird aus 3mm Sperrholz gelasert.
 |  IN2 |  GPIO 32|  
 | -------- | -------- |
 
+## 3D Druckteile
+
+![Bild](/pic/3D.png)
 
 
 ## Aufbau
