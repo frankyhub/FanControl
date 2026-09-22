@@ -36,7 +36,7 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 |   3|Widerstaand 100 OhmL|
 |  2 |Hot End Lüfter|
 | 2 |Relais 5V|
-| 1|  DHT11 oder DHT22 Sensor
+| 1|  DHT11 oder DHT22 Sensor|
 | 1        |Sperrholzplatten 600x300x3mm  | 
 | 1         | Holzkleber  | 
 | -------- | -------- |  
