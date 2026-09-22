@@ -27,18 +27,18 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 ## Hardware
 
 | Stück | Beschreibung | 
-|  1|  ESP32 NodeMcu Entwicklungsboard|
-|  1|0.96" OLED Display|
-| 1|  Aktiver Piezo-Buzzer|
-|  1| LED rot|
-|  1 |LED gelb|
-|  1 |LED grünV
-|   3|Widerstaand 100 OhmL|
-|  2 |Hot End Lüfter|
-| 2 |Relais 5V|
-| 1|  DHT11 oder DHT22 Sensor|
-| 1        |Sperrholzplatten 600x300x3mm  | 
-| 1         | Holzkleber  | 
+|  1 |  ESP32 NodeMcu Entwicklungsboard | 
+|  1 |0.96" OLED Display |
+| 1 |  Aktiver Piezo-Buzzer| 
+|  1 |  LED rot |
+|  1 |L ED gelb |
+|  1 | LED grün| 
+|   3 |Widerstand 100 Ohm |
+|  2 | Hot End Lüfter |
+| 2 |Relais 5V |
+| 1 |  DHT11 oder DHT22 Sensor |
+| 1 |Sperrholzplatten 600x300x3mm  | 
+| 1 | Holzkleber  | 
 | -------- | -------- |  
 
 ##  Verdrahtung
@@ -56,11 +56,9 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
              | GND (|GND|
 | -------- | -------- | 
 | Piezo-Buzzer | ESP32 | 
-
                 |Plus (+) | GPIO 18|
               |Minus (-)| GND|
 | -------- | -------- | 
-
 |Rot |  GPIO 25|
 |Gelb | GPIO 26 |
 |Grün| GPIO 27|
@@ -78,11 +76,10 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
               |SDA| GPIO 22|
               |SCL |GPIO 21|
 | -------- | -------- | 
-|  DHT11-Sensor   | ESP32 | 
-  
+|  DHT11-Sensor   | ESP32 |   
       |      VCC (links) |Vin|
         |    Data (Mitte)-|GPIO 4|
-            GND (rechts) |GND|
+           |   GND (rechts) |GND|
 | -------- | -------- | 
 |  Piezo-Buzzer  | ESP32 |  
   |          Plus (+)|GPIO 18|
