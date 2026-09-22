@@ -25,7 +25,7 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 </div>  
 
 ## Hardware
-
+| | |
 | Stück | Beschreibung | 
 |  1 |  ESP32 NodeMcu Entwicklungsboard | 
 |  1 |0.96" OLED Display |
@@ -42,8 +42,7 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 | -------- | -------- |  
 
 ##  Verdrahtung
-
-### OLED-Display 
+| | |
 | OLED-Display | ESP32 | 
 | VDD | Vin|
               |GND| GND|
