@@ -108,8 +108,8 @@
 #include "web_page.h"
 
 // --- WLAN-KONFIGURATION ---
-const char* wifi_ssid = "TP-ESP32";
-const char* wifi_pass = "gigaset4035";
+const char* wifi_ssid = "xxx";
+const char* wifi_pass = "xxx;
 
 // --- PIN-BELEGUNG (HARDWARE) ---
 #define DHT_PIN 4          // Daten-Pin DHT11
