@@ -8,12 +8,7 @@
 |![Static Badge](https://img.shields.io/badge/RepoNr.:-%20124-blue)|<a href="https://github.com/frankyhub/FanControl/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/FanControl)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/FanControl)|<a href="https://github.com/frankyhub/FanControl/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/FanControl)|<a href="https://github.com/frankyhub/FanControl/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/FanControl)|
 |![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/FanControl)| <a href="https://github.com/frankyhub/FanControl/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/FanControl/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
 
-
-
-
-
 ---
-
 
 ## Story
 Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird aus 3mm Sperrholz gelasert. In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luftfeuchtigkeit in Echtzeit überwacht, Lüfter bei Grenzwerten automatisch steuert und eine komfortable Überwachung per Web-Dashboard ermöglicht.
@@ -28,16 +23,16 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 | | |
 | Stück | Beschreibung | 
 |  1 |  ESP32 NodeMcu Entwicklungsboard | 
-|  1 |0.96" OLED Display |
+|  1 | 0.96" OLED Display |
 | 1 |  Aktiver Piezo-Buzzer| 
 |  1 |  LED rot |
-|  1 |L ED gelb |
+|  1 | LED gelb |
 |  1 | LED grün| 
 |   3 |Widerstand 100 Ohm |
 |  2 | Hot End Lüfter |
-| 2 |Relais 5V |
+| 2 | Relais 5V |
 | 1 |  DHT11 oder DHT22 Sensor |
-| 1 |Sperrholzplatten 600x300x3mm  | 
+| 1 | Sperrholzplatten 600x300x3mm  | 
 | 1 | Holzkleber  | 
 | -------- | -------- |  
 
