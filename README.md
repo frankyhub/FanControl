@@ -114,8 +114,12 @@ Das Gehäuse wird aus 3mm Sperrholz gelasert.
 |  IN2 |  GPIO 32|  
 | -------- | -------- |
 
+
+## Die Relaismodule
+
 ![Bild](/pic/relais.png)
 
+</div>  
 
 JD-VCC steht für Jumper-Determined VCC und bezeichnet den separaten Stromversorgungsanschluss 
 für die Relaisspulen auf einem Relaismodul. 
