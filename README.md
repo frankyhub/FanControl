@@ -19,9 +19,17 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 
 </div>  
 
+| Spalte 1 | Spalte 2 | Spalte 3 |
+| -------- | -------- | -------- |
+| A        | B        | 1        |
+| C        | D        | 2        |
+| E        | F        | 3        |
+| G        | H        | 4        |
+
 ## Hardware
 | | |
 | Stück | Beschreibung | 
+| -------- | -------- | 
 |  1 |  ESP32 NodeMcu Entwicklungsboard | 
 |  1 | 0.96" OLED Display |
 | 1 |  Aktiver Piezo-Buzzer| 
