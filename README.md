@@ -43,24 +43,24 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 | OLED-Display | ESP32 |
 | -------- | -------- | 
 | VDD | Vin|
-              |GND| GND|
-              |SCK| GPIO 22|
-              |SDA| GPIO 21|
+|GND| GND|
+|SCK| GPIO 22|
+|SDA| GPIO 21|
 | -------- | -------- | 
 
 
 | DHT22-Sensor | ESP32 | 
 | -------- | -------- | 
- | VCC| Vin|
-              |Data | GPIO 4|
-             | GND (|GND|
+|  VCC| Vin|
+|Data | GPIO 4|
+| GND (|GND|
 | -------- | -------- | 
 
 
 | Piezo-Buzzer | ESP32 | 
 | -------- | -------- | 
-                |Plus (+) | GPIO 18|
-              |Minus (-)| GND|
+|Plus (+) | GPIO 18|
+|Minus (-)| GND|
 | -------- | -------- | 
 
 | LED Ampel | ESP32 | 
@@ -74,43 +74,43 @@ Diese Anleitung beschreibt den Aufbau einer Lüftersteuerung. Das Gehäuse wird 
 
 |  Relais-Modul  | ESP32 | 
 | -------- | -------- | 
- | VCC| Vin|
-              |GND| GND|
-              |IN1| GPIO 33|
-             | IN2| GPIO 32|
+| VCC| Vin|
+|GND| GND|
+|IN1| GPIO 33|
+| IN2| GPIO 32|
 | -------- | -------- | 
 
 
 |  OLED-Display   | ESP32 | 
 | -------- | -------- | 
 |  VDD |Vin|
-              |GND| GND|
-              |SDA| GPIO 22|
-              |SCL |GPIO 21|
+|GND| GND|
+|SDA| GPIO 22|
+|SCL |GPIO 21|
 | -------- | -------- | 
 
 
 |  DHT11-Sensor   | ESP32 |  
 | -------- | -------- | 
-      |      VCC (links) |Vin|
-        |    Data (Mitte)-|GPIO 4|
-           |   GND (rechts) |GND|
+|      VCC (links) |Vin|
+|    Data (Mitte)-|GPIO 4|
+|   GND (rechts) |GND|
 | -------- | -------- | 
 
 
 |  Piezo-Buzzer  | ESP32 |  
 | -------- | -------- | 
-  |          Plus (+)|GPIO 18|
-           | Minus (-)| GND|
+|          Plus (+)|GPIO 18|
+| Minus (-)| GND|
 | -------- | -------- | 
 
 
 |  Relais-Modul | ESP32 |   
 | -------- | -------- | 
-           |   VCC |  Vin|  
-            |  GND|   GND|  
-            |  IN1 |  GPIO 33|  
-            |  IN2 |  GPIO 32|  
+|   VCC |  Vin|  
+|  GND|   GND|  
+|  IN1 |  GPIO 33|  
+|  IN2 |  GPIO 32|  
 | -------- | -------- |
 
 
