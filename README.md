@@ -130,7 +130,7 @@ den Controller nicht beschädigen.
 
 Jedes Relais braucht ca. 60–80 mA Strom um zu schalten. Die Relaisspulen besitzen deshalb den separaten Stromversorgungsanschluss 
 JD-VCC (Jumper-Determined VCC). Der kleine Steck-Jumper verbindet VCC und JD-VCC. Da die Relais zu viel Strom für den ESP32 ziehen und den ESP32 beschädigen würden,
-entfernen wie den Jumper und schließen eine externe 5V-Stromquelle an JD-VCC (Plus) und den dazugehörigen GND an. 
+entfernen wir den Jumper und schließen eine externe 5V-Stromquelle an JD-VCC (Plus) und den dazugehörigen GND an. 
 Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein (Common Ground). 
 
 
