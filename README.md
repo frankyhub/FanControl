@@ -132,6 +132,10 @@ JD-VCC (Jumper-Determined VCC). Der kleine Steck-Jumper verbindet VCC und JD-VCC
 Wir entfernen deshalb den Jumper und schließe eine externe 5V-Stromquelle an JD-VCC (Plus) und den dazugehörigen GND an. 
 Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein (Common Ground). 
 
+
+![Bild](/pic/Relais2.png)
+
+
 ## 3D Druckteile
 
 ![Bild](/pic/3D.png)
