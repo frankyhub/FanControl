@@ -115,31 +115,22 @@ Das Gehäuse wird aus 3mm Sperrholz gelasert.
 | -------- | -------- |
 
 
-## Die Relaismodule
+## DasRelaismodul
 
-![Bild](/pic/relais.png)
+![Bild](/pic/Relais.png)
 
 </div>  
 
-JD-VCC steht für Jumper-Determined VCC und bezeichnet den separaten Stromversorgungsanschluss 
-für die Relaisspulen auf einem Relaismodul. 
-Stromversorgung der Spulen: Jedes Relais braucht Strom (ca. 60–80 mA), um zu schalten. 
+Da der ESP32 nicht ausreichend Strom zum schalten der Lüfter liefert, verwenden wir ein Relaismodul.
 
-Optische Trennung (Galvanische Isolierung): Das Modul nutzt Optokoppler. Sie trennen die 
-empfindliche Steuerelektronik (dein Mikrocontroller) von der Lastseite (die Relaisspulen), 
-damit Spannungsspitzen den Controller nicht beschädigen.
+Die Eingänge haben Optokoppler und bieten eine optische Trennung (Galvanische Isolierung). Sie trennen die 
+empfindliche Steuerelektronik desMikrocontrollers von der Lastseite (die Relaisspulen), damit Spannungsspitzen 
+den Controller nicht beschädigen.
 
-Wie schließt man es an?Mit Jumper (Standard, aber ungesichert): Der kleine Steck-Jumper 
-verbindet VCC und JD-VCC. Der Strom für die Relais kommt direkt vom Microcontroller 5V-Pin.
-
-Nachteil: Bei vielen gleichzeitigen Relais zieht das zu viel Strom und kann den Microcontroller beschädigen.
-
-Ohne Jumper (Empfohlen bei mehreren Relais): Nimm den Jumper ab. Schließe eine externe 
-5V-Stromquelle an JD-VCC (Plus) und den dazugehörigen GND an. Verbinde VCC des Moduls mit 
-den 5V des Microcontroller (nur für die Logik/Optokoppler). 
-
-Wichtig: Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein
-(Common Ground). 
+Jedes Relais braucht ca. 60–80 mA Strom um zu schalten. Die Relaisspulen besitzen deshalb einen separaten Stromversorgungsanschluss 
+JD-VCC (Jumper-Determined VCC). Der kleine Steck-Jumper verbindet VCC und JD-VCC. Die Relais ziehen zu viel Strom und beschädigen den Microcontroller.
+Wir entfernen deshalb den Jumper und schließe eine externe 5V-Stromquelle an JD-VCC (Plus) und den dazugehörigen GND an. 
+Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein (Common Ground). 
 
 ## 3D Druckteile
 
