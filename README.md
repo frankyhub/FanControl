@@ -11,8 +11,9 @@
 ---
 
 ## Story
-In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luftfeuchtigkeit in Echtzeit überwacht, Lüfter bei Grenzwerten automatisch steuert und eine komfortable Überwachung per Web-Dashboard und OLED-Display ermöglicht.
-Das Gehäuse wird aus 3mm Sperrholz gelasert.
+In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luftfeuchtigkeit in Echtzeit überwacht, Lüfter bei Grenzwerten automatisch steuert und eine komfortable Überwachung per Web-Dashboard und OLED-Display ermöglicht. Der Temperatur-Grenzwert kann am Web-Dashboard verändert werden. 
+
+Das Gehäuse wird aus 4mm Sperrholz gelasert.
  
 ![Bild](/pic/FanControl.gif)
 
