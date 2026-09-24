@@ -121,6 +121,10 @@ const char* wifi_pass = "gigaset4035";
 #define FAN_RELAY_2 32     // Lüfter 2
 #define FAN_RELAY_3 14     // Lüfter 3
 
+#define LED_16 16         // Status: Kritisch
+#define LED_17 17     // Status: Warnung
+#define LED_5 5      // Status: Normal
+
 // --- RELAIS-STEUERUNG ---
 // Die meisten Relais schalten bei LOW (Active LOW)
 #define RELAY_ACTIVE LOW
@@ -348,7 +352,9 @@ void setup() {
   pinMode(FAN_RELAY_1, OUTPUT);
   pinMode(FAN_RELAY_2, OUTPUT);
   pinMode(FAN_RELAY_3, OUTPUT);
-  
+  pinMode(LED_16, OUTPUT);
+  pinMode(LED_17, OUTPUT);
+  pinMode(LED_5, OUTPUT);
   // Relais initial ausschalten
   digitalWrite(FAN_RELAY_1, RELAY_INACTIVE);
   digitalWrite(FAN_RELAY_2, RELAY_INACTIVE);
@@ -393,6 +399,9 @@ void evaluateConditions() {
   if (smoothedTemp < (maxTempLimit - 2.0)) {
     systemStatus = 0;
     digitalWrite(LED_GREEN, HIGH);
+    digitalWrite(LED_5, HIGH);
+    digitalWrite(LED_16, LOW);
+    digitalWrite(LED_17, LOW);           
     digitalWrite(LED_YELLOW, LOW);
     digitalWrite(LED_RED, LOW);
     digitalWrite(FAN_RELAY_3, HIGH);
@@ -403,6 +412,9 @@ void evaluateConditions() {
     systemStatus = 1;
     digitalWrite(LED_GREEN, LOW);
     digitalWrite(LED_YELLOW, HIGH);
+    digitalWrite(LED_5, LOW); //Anzeige Rückwand
+    digitalWrite(LED_16, HIGH);
+    digitalWrite(LED_17, LOW); 
     digitalWrite(LED_RED, LOW);
     digitalWrite(FAN_RELAY_3, LOW);
     actionTriggered = false; // Reset
@@ -413,6 +425,9 @@ void evaluateConditions() {
     digitalWrite(LED_GREEN, LOW);
     digitalWrite(LED_YELLOW, LOW);
     digitalWrite(LED_RED, HIGH);
+    digitalWrite(LED_5, LOW);
+    digitalWrite(LED_16, LOW);
+    digitalWrite(LED_17, HIGH);
     digitalWrite(FAN_RELAY_3, LOW);    
     isCritical = true;
   }
@@ -429,7 +444,10 @@ void evaluateConditions() {
     digitalWrite(FAN_RELAY_2, RELAY_INACTIVE);
     coolingActive = false;
     playDeactivationChime(); // Spielt die Level-Up Melodie
-  }
+
+
+  
+ }
 }
 
 // --- HAUPTSCHLEIFE ---
