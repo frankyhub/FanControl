@@ -121,9 +121,9 @@ const char* wifi_pass = "gigaset4035";
 #define FAN_RELAY_2 32     // Lüfter 2
 #define FAN_RELAY_3 14     // Lüfter 3
 
-#define LED_16 16         // Status: Kritisch
-#define LED_17 17     // Status: Warnung
-#define LED_5 5      // Status: Normal
+#define LED_16 16         // Status: Gelb
+#define LED_17 17         // Status: Warnung
+#define LED_5 5           // Status: Normal
 
 // --- RELAIS-STEUERUNG ---
 // Die meisten Relais schalten bei LOW (Active LOW)
@@ -426,7 +426,7 @@ void evaluateConditions() {
     digitalWrite(LED_YELLOW, LOW);
     digitalWrite(LED_RED, HIGH);
     digitalWrite(LED_5, LOW);
-    digitalWrite(LED_16, LOW);
+    digitalWrite(LED_16, HIGH);
     digitalWrite(LED_17, HIGH);
     digitalWrite(FAN_RELAY_3, LOW);    
     isCritical = true;
