@@ -74,7 +74,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 | GND| GND|
 | -------- | -------- | 
 | Anzeige| Rückwand| 
-|Rot |  GPIO1 17|
+|Rot |  GPIO 17|
 |Rot| GPIO 16|
 | -------- | -------- | 
 
