@@ -147,6 +147,10 @@ Sollte bei einem HIGH-Signal der Lüfter aktiv sein, liegt eine Fehlfunktion (z.
 ![Bild](/pic/Verdrahtung.png)
 
 
+![Bild](/pic/DHT11_Verdrahtung.png)
+
+
+
 ## 3D Druckteile
 
 ![Bild](/pic/3D.png)
