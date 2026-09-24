@@ -78,31 +78,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |Rot Lüft.2|  GPIO 17|
 | -------- | -------- | 
 
-|  Relais-Modul  | ESP32 | 
-| -------- | -------- | 
-| VCC| Vin|
-|GND| GND|
-|IN1| GPIO 33|
-| IN2| GPIO 32|
-| IN2| GPIO 14 optional|
-| -------- | -------- | 
 
-
-|  OLED-Display   | ESP32 | 
-| -------- | -------- | 
-|  VDD |Vin|
-|GND| GND|
-|SDA| GPIO 22|
-|SCL |GPIO 21|
-| -------- | -------- | 
-
-
-|  DHT11-Sensor   | ESP32 |  
-| -------- | -------- | 
-|      VCC  |Vin|
-|    Data |GPIO 4|
-|   GND  |GND|
-| -------- | -------- | 
 
 
 |  Piezo-Buzzer  | ESP32 |  
@@ -111,14 +87,14 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 | Minus | GND|
 | -------- | -------- | 
 
-
-|  Relais-Modul | ESP32 |   
+|  Relais-Modul  | ESP32 | 
 | -------- | -------- | 
-|   VCC |  Vin|  
-|  GND|   GND|  
-|  IN1 |  GPIO 33|  
-|  IN2 |  GPIO 32|  
-| -------- | -------- |
+| VCC| Vin|
+|GND| GND|
+|IN1| GPIO 33|
+| IN2| GPIO 32|
+| IN2| GPIO 14 optional|
+| -------- | -------- | 
 
 
 ## Das Relaismodul
