@@ -30,8 +30,8 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |  1 |  ESP32 NodeMcu Entwicklungsboard | 
 |  1 | 0.96" OLED Display |
 | 1 |  Aktiver Piezo-Buzzer| 
-|  1 |  LED rot |
-|  1 | LED gelb |
+|  3 |  LED rot |
+|  1 |  LED gelb |
 |  1 | LED grün| 
 |   3 |Widerstand 100 Ohm |
 |  2 | Hot End Lüfter |
@@ -71,9 +71,12 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |Rot |  GPIO 25|
 |Gelb | GPIO 26 |
 |Grün| GPIO 27|
-|          GND| GND|
+| GND| GND|
 | -------- | -------- | 
-
+| Anzeige| Rückwand| 
+|Rot |  GPIO1 17|
+|Rot| GPIO 16|
+| -------- | -------- | 
 
 |  Relais-Modul  | ESP32 | 
 | -------- | -------- | 
