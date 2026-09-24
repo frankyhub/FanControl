@@ -11,9 +11,10 @@
 ---
 
 ## Story
-In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luftfeuchtigkeit in Echtzeit überwacht, Lüfter bei Grenzwerten automatisch steuert und eine komfortable Überwachung per Web-Dashboard und OLED-Display ermöglicht. Der Temperatur-Grenzwert kann am Web-Dashboard verändert werden. 
+In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luftfeuchtigkeit in Echtzeit überwacht, Lüfter bei Grenzwerten automatisch steuert und eine komfortable Überwachung per Web-Dashboard und OLED-Display ermöglicht. Drei LEDs grün (TEMPERATUR OK) , orange (WARNUNG: TEMP HOCH) und rot (KÜHLUNG AKTIV) zeigen den Temperaturstatus an. Liegt die IST-Temperatur über der SOLL-Temperatur leuchtet die rote LED und zwei Relais-Ausgänge schalten die beiden Lüfter ein. Der Temperatur-Grenzwert (ALARM-PARAMETER) kann am WEB-Dashboard mit der Tastatur oder der Maus verändert werden. 
 
-Das Gehäuse wird aus 4mm Sperrholz gelasert.
+Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung, der bereits mit der WARNUNG: TEMP HOCH (gelbe LED) einschaltet.
+
  
 ![Bild](/pic/FanControl.gif)
 
@@ -80,6 +81,7 @@ Das Gehäuse wird aus 4mm Sperrholz gelasert.
 |GND| GND|
 |IN1| GPIO 33|
 | IN2| GPIO 32|
+| IN2| GPIO 14 optional|
 | -------- | -------- | 
 
 
@@ -116,7 +118,7 @@ Das Gehäuse wird aus 4mm Sperrholz gelasert.
 | -------- | -------- |
 
 
-## DasRelaismodul
+## Das Relaismodul
 
 ![Bild](/pic/Relais.png)
 
@@ -136,6 +138,13 @@ Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden s
 
 
 ![Bild](/pic/Relais2.png)
+
+## Relais Verdrahtung
+
+Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die Steuerung einer LED oder eines anderen Ausgangs. In diesem Beispiel, da wir eine normalerweise offene Konfiguration verwenden, müssen wir ein LOW-Signal senden, damit der Strom fließen kann, und ein HIGH-Signal, um den Stromfluss zu stoppen.
+Sollte bei einem HIGHT-Signal der Lüfter aktiv sein, liegt eine Fehlfunktion (z.B. Drahtbruch) vor. 
+
+![Bild](/pic/Verdrahtung.png)
 
 
 ## 3D Druckteile
