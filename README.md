@@ -78,9 +78,6 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |Rot Lüft.2|  GPIO 17|
 | -------- | -------- | 
 
-
-
-
 |  Piezo-Buzzer  | ESP32 |  
 | -------- | -------- | 
 |  Plus |GPIO 18|
@@ -95,6 +92,10 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 | IN2| GPIO 32|
 | IN2| GPIO 14 optional|
 | -------- | -------- | 
+
+## ESP32 Dev Kit V4
+
+![Bild](/pic/ESP32Verdrahtung.png)
 
 
 ## Das Relaismodul
