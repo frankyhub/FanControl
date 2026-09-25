@@ -464,7 +464,9 @@ void loop() {
   if (currentMillis - timeLastSensor >= 2000) {
     timeLastSensor = currentMillis;
 
-    float t = dhtSensor.readTemperature();
+    float temp = dhtSensor.readTemperature();
+    const float tempOffset = -2.0; // z.B. Sensor zeigt 2°C zu viel
+    float t = temp + tempOffset;
     float h = dhtSensor.readHumidity();
 
     if (!isnan(t) && !isnan(h)) {
