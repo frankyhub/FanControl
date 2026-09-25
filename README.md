@@ -20,6 +20,8 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 
 ![Bild](/pic/FanControl.png)
 
+![Bild](/pic/OLED.png)
+
  
 
 
