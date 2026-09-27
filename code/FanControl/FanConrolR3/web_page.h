@@ -370,7 +370,7 @@ const char index_html[] PROGMEM = R"rawliteral(
             statusTxt.style.background = "rgba(248, 81, 73, 0.1)";
             statusTxt.style.boxShadow = "0 0 15px rgba(248, 81, 73, 0.3)";
             
-            fan.classList.add('spinning');
+            fan.classList.add('spinning'); //Rot
             
           } else if(data.status == 1) { 
             // WARNUNG
@@ -381,7 +381,7 @@ const char index_html[] PROGMEM = R"rawliteral(
             statusTxt.style.borderColor = "var(--warning)";
             statusTxt.style.background = "rgba(210, 153, 34, 0.1)";
             statusTxt.style.boxShadow = "none";
-
+            fan.classList.add('spinning'); //Gelb
           } else { 
             // NORMAL
             tempCircle.style.stroke = "var(--text-highlight)";
