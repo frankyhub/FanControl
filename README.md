@@ -55,6 +55,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |SDA| GPIO 21|
 | -------- | -------- | 
 
+### Gegebenenfalls den Sensor außerhalb des Gehäuses anbringen
 
 | DHT22-Sensor | ESP32 | 
 | -------- | -------- | 
