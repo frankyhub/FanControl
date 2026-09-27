@@ -364,7 +364,7 @@ const char index_html[] PROGMEM = R"rawliteral(
             // KRITISCH
             tempCircle.style.stroke = "var(--danger)";
             
-            statusTxt.innerText = "KÜHLUNG AKTIV";
+            statusTxt.innerText = "KÜHLUNG AKTIV, Lüfter 1+2";
             statusTxt.style.color = "var(--danger)";
             statusTxt.style.borderColor = "var(--danger)";
             statusTxt.style.background = "rgba(248, 81, 73, 0.1)";
@@ -376,7 +376,7 @@ const char index_html[] PROGMEM = R"rawliteral(
             // WARNUNG
             tempCircle.style.stroke = "var(--warning)";
             
-            statusTxt.innerText = "WARNUNG: TEMP HOCH";
+            statusTxt.innerText = "TEMP HOCH, Lüfter 1";
             statusTxt.style.color = "var(--warning)";
             statusTxt.style.borderColor = "var(--warning)";
             statusTxt.style.background = "rgba(210, 153, 34, 0.1)";
