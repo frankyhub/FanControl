@@ -147,8 +147,7 @@ Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden s
 
 ### Relais Verdrahtung
 
-Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die Steuerung einer LED oder eines anderen Ausgangs. In diesem Beispiel, da wir eine normalerweise offene Konfiguration verwenden, müssen wir ein LOW-Signal senden, damit der Strom fließen kann, und ein HIGH-Signal, um den Stromfluss zu stoppen.
-Sollte bei einem HIGH-Signal der Lüfter aktiv sein, liegt eine Fehlfunktion (z.B. Drahtbruch) vor. 
+Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die Steuerung einer LED oder die Ansteuerung eines anderen Aktors. Der Relaisausgang schaltet mit einem LOW Signal. Bei einem HIGH Signal vom ESP32, ist das Relais in Ruhestellung. 
 
 ![Bild](/pic/Verdrahtung.png)
 
