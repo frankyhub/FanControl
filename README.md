@@ -51,6 +51,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |  1 | Schalter| 
 |   3 |Widerstand 100 Ohm |
 |   2 |Widerstand 1200 Ohm |
+|   1 |Widerstand 10k Ohm |
 |  2 | Hot End Lüfter |
 | 2 | Relais 5V |
 | 1 |  DHT11 oder DHT22 Sensor |
