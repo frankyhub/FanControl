@@ -160,12 +160,27 @@ Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die St
 
 ![Bild](/pic/3D.png)
 
+## Verdrahtung
 
-## Aufbau
+![Bild](/pic/Innen.png)
+
+
+## Gehäuse
 
 ### xtool Lasercutter Datei
 
 ![Bild](/pic/xtool.png)
+
+
+![Bild](/pic/FanControl1.png)
+
+![Bild](/pic/FanControl2.png)
+
+![Bild](/pic/FanControl3.png)
+
+![Bild](/pic/FanControl4.png)
+
+![Bild](/pic/FanControl5.png)
 
 
 
