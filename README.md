@@ -38,17 +38,26 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 
 | Stück | Beschreibung | 
 | -------- | -------- | 
-|  1 |  ESP32 NodeMcu Entwicklungsboard | 
+|  1 |  ESP32 DevKit V4 | 
 |  1 | 0.96" OLED Display |
 | 1 |  Aktiver Piezo-Buzzer| 
-|  3 |  LED rot |
+|  5 |  LED rot |
 |  1 |  LED gelb |
 |  1 | LED grün| 
+|  1 | Step Down Modul 12V->5V| 
+|  1 | 12V Netzteil|
+|  3 | Buchsen (Lüfter und Netzteil)|
+|  3 | Stecker (Lüfter und Netzteil)|
+|  1 | Schalter| 
 |   3 |Widerstand 100 Ohm |
+|   2 |Widerstand 1200 Ohm |
 |  2 | Hot End Lüfter |
 | 2 | Relais 5V |
 | 1 |  DHT11 oder DHT22 Sensor |
 | 1 | Sperrholzplatte 600x300x3mm  | 
+| 1 | Drähte, Verbrauchsmaterial | 
+| 1 | 3D Druckteile  | 
+| 2| WAGO 5fach Klemmen  | 
 | 1 | Holzkleber  | 
 | -------- | -------- |  
 
@@ -62,7 +71,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |SDA| GPIO 21|
 | -------- | -------- | 
 
-### Gegebenenfalls den Sensor außerhalb des Gehäuses anbringen
+### Gegebenenfalls den Sensor außerhalb des Gehäuses an einer geeigneten Messstelle montiern.
 
 | DHT22-Sensor | ESP32 | 
 | -------- | -------- | 
@@ -105,12 +114,12 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 | IN2| GPIO 14 optional|
 | -------- | -------- | 
 
-## ESP32 Dev Kit V4
+### ESP32 Dev Kit V4
 
 ![Bild](/pic/ESP32Verdrahtung.png)
 
 
-## Das Relaismodul
+### Das Relaismodul
 
 ![Bild](/pic/Relais.png)
 
@@ -131,7 +140,7 @@ Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden s
 
 ![Bild](/pic/Relais2.png)
 
-## Relais Verdrahtung
+### Relais Verdrahtung
 
 Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die Steuerung einer LED oder eines anderen Ausgangs. In diesem Beispiel, da wir eine normalerweise offene Konfiguration verwenden, müssen wir ein LOW-Signal senden, damit der Strom fließen kann, und ein HIGH-Signal, um den Stromfluss zu stoppen.
 Sollte bei einem HIGH-Signal der Lüfter aktiv sein, liegt eine Fehlfunktion (z.B. Drahtbruch) vor. 
