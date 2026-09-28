@@ -124,6 +124,10 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 ![Bild](/pic/ESP32Verdrahtung.png)
 
 
+### ESP32 Dev Kit V4 Shield
+
+![Bild](/pic/Shield.png)
+
 ### Das Relaismodul
 
 ![Bild](/pic/Relais.png)
