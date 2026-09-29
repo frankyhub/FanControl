@@ -53,10 +53,10 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 |  3 | Buchsen (Lüfter und Netzteil)|
 |  3 | Stecker (Lüfter und Netzteil)|
 |  1 | Schalter| 
-|   3 |Widerstand 100 Ohm |
-|   2 |Widerstand 1200 Ohm |
-|   1 |Widerstand 10k Ohm |
-|  2 | Hot End Lüfter |
+|   5 |Widerstand 100 Ohm LED Frontseite|
+|   2 |Widerstand 1200 Ohm LED Rückseite|
+|   1 |Widerstand 10k Ohm DHT11/22 |
+|  2 | Hot End Lüfter/ PC-Lüfter |
 | 2 | Relais 5V |
 | 1 |  DHT11 oder DHT22 Sensor |
 | 1 | Sperrholzplatte 600x300x3mm  | 
