@@ -142,7 +142,7 @@ den Controller nicht beschädigen.
 
 Die Spannungsversorgung der Relais erfolgt mit 5V.
 
-Die externe Spannungsversorgung für die Lüfter wird am Wechslerkontakt der Relais angeschlossen. Je nach Ventilatortyp könnendes auch 12V sein.
+Die externe Spannungsversorgung für die Lüfter wird am Wechslerkontakt der Relais angeschlossen. Je nach Lüftertyp könnendes auch 12V sein.
 
 Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein (Common Ground). 
 
