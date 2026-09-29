@@ -140,9 +140,9 @@ Die Eingänge haben Optokoppler und bieten eine optische Trennung (Galvanische I
 empfindliche Steuerelektronik des Mikrocontrollers von der Lastseite (die Relaisspulen), damit Spannungsspitzen 
 den Controller nicht beschädigen.
 
-Die Spannungsversorgung der Relais erfolgt mit 5V.
+Die Spannungsversorgung des Relaisblocks erfolgt mit 5V.
 
-Die externe Spannungsversorgung für die Lüfter wird am Wechslerkontakt der Relais angeschlossen. Je nach Lüftertyp könnendes auch 12V sein.
+Die externe Spannungsversorgung für die Lüfter wird am Wechslerkontakt der Relais angeschlossen. Je nach Lüftertyp können das auch 12V  (PC-Lüfter) sein.
 
 Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein (Common Ground). 
 
