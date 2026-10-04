@@ -119,7 +119,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 | IN2| GPIO 14 optional|
 | -------- | -------- | 
 
-### ESP32 Dev Kit V4
+### ESP32 Dev Kit V4 Boardverwalter: ESP32 Dev Module V3.3.11
 
 ![Bild](/pic/ESP32Verdrahtung.png)
 
