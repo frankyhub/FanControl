@@ -142,7 +142,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 
 #include <DHT.h> //V1.4.7 https://github.com/adafruit/DHT-sensor-library
 
-//Adafruit_Sensor Adafruit_Sensor1.1.15 https://github.com/adafruit/Adafruit_Sensor
+//Adafruit_Sensor V1.1.15 https://github.com/adafruit/Adafruit_Sensor
 
 
 <div align="center">
