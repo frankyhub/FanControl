@@ -14,8 +14,12 @@
   https://adafruit.github.io/arduino-board-index/package_adafruit_index.json
 **************************************************************************************************
   Libraries:
-  DHT sensor library (von Adafruit)
-  Adafruit SSD1306 (von Adafruit)
+
+ <Adafruit_GFX.h> //V1.12.6 https://github.com/adafruit/Adafruit-GFX-Library
+ <Adafruit_SSD1306.h> //V2.5.17 https://github.com/adafruit/Adafruit_SSD1306
+ <DHT.h> //V1.4.7 https://github.com/adafruit/DHT-sensor-library
+ Adafruit_Sensor Adafruit_Sensor1.1.15 https://github.com/adafruit/Adafruit_Sensor
+ 
 **************************************************************************************************
   C++ Arduino IDE V1.8.19
 
