@@ -124,8 +124,11 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 ![Bild](/pic/ESP32Verdrahtung.png)
 
 
-</div>
+
+
 ### Libraries
+
+</div>
 
 #include <WiFi.h>
 
