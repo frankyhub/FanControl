@@ -123,6 +123,8 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 
 ![Bild](/pic/ESP32Verdrahtung.png)
 
+
+</div>
 ### Libraries
 
 #include <WiFi.h>
@@ -140,6 +142,8 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 //Adafruit_Sensor Adafruit_Sensor1.1.15 https://github.com/adafruit/Adafruit_Sensor
 
 
+<div align="center">
+ 
 ### ESP32 Dev Kit V4 Shield
 
 ![Bild](/pic/Shield.png)
