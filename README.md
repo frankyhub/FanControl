@@ -16,20 +16,14 @@ In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luf
 Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung, der bereits mit der WARNUNG: TEMP HOCH (gelbe LED) einschaltet.
 
  ## FanControl WEB-Dashboard
+
+ <img src="pic/FanControl.gif"  width="500"> 
  
-![Bild](/pic/FanControl.gif)
 
  ## FanControl WEB-Dashboard Snapshot
 
-![Bild](/pic/FanControl.png)
+  <img src="pic/FanControl.png"  width="500"> 
 
- ## FanControl Gehäusefront
-
-![Bild](/pic/Front.png)
-
- ## FanControl Gehäuse Rückseite
-
-![Bild](/pic/FanControl3.png)
 
  ## FanControl OLED-Display
 
@@ -121,9 +115,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 
 ### ESP32 Dev Kit V4 Boardverwalter: ESP32 Dev Module V3.3.11
 
-![Bild](/pic/ESP32Verdrahtung.png)
-
-
+<img src="pic/ESP32Verdrahtung.png"  width="500"> 
 
 
 ### Libraries
@@ -149,12 +141,12 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
  
 ### ESP32 Dev Kit V4 Shield
 
-![Bild](/pic/Shield.png)
+<img src="pic/Shield.png"  width="500"> 
+
 
 ### Das Relaismodul
 
-![Bild](/pic/Relais.png)
-
+<img src="pic/Relais.png" width="500"> 
 
 
 Da der ESP32 nicht ausreichend Strom zum schalten der Lüfter liefert, verwenden wir ein Relaismodul.
@@ -170,45 +162,52 @@ Die externe Spannungsversorgung für die Lüfter wird am Wechslerkontakt der Rel
 Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein (Common Ground). 
 
 
+<img src="pic/Relais2.png" width="500"> 
 
-![Bild](/pic/Relais2.png)
 
 ### Relais Verdrahtung
 
 Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die Steuerung einer LED oder die Ansteuerung eines anderen Aktors. Der Relaisausgang schaltet mit einem LOW Signal. Bei einem HIGH Signal vom ESP32, ist das Relais in Ruhestellung. 
 
-![Bild](/pic/Verdrahtung.png)
 
+<img src="pic/Verdrahtung.png" width="500"> 
 
-![Bild](/pic/DHT11_Verdrahtung.png)
+<br>
 
+<img src="pic/DHT11_Verdrahtung" width="500"> 
 
 
 ## 3D Druckteile
 
-![Bild](/pic/3D.png)
+<img src="pic/3D.png" width="500"> 
 
 ## Verdrahtung
 
-![Bild](/pic/Innen.png)
+
+<img src="pic/Innen.png" width="500"> 
 
 
 ## Gehäuse
 
 ### xtool Lasercutter Datei
 
-![Bild](/pic/xtool.png)
+<img src="pic/xtool.png" width="500"> 
+<br>
 
+<img src="pic/FanControl1.png" width="500"> 
+<br>
 
-![Bild](/pic/FanControl1.png)
+<img src="pic/FanControl2.png" width="500"> 
+<br>
 
-![Bild](/pic/FanControl2.png)
+<img src="pic/FanControl3.png" width="500"> 
+<br>
 
-![Bild](/pic/FanControl3.png)
+<img src="pic/FanControl4.png" width="500"> 
+<br>
 
-![Bild](/pic/FanControl4.png)
-
-![Bild](/pic/FanControl5.png)
+<img src="pic/FanControl5.png" width="500"> 
+<br>
 
 
 
