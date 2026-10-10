@@ -188,7 +188,7 @@ Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die St
 <img src="pic/3D.png" width="500"> 
 <br> <br>
 
-## Verdrahtung
+## FanControl Verdrahtung
 
 
 <img src="pic/Innen.png" width="500"> 
