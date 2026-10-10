@@ -118,29 +118,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 <img src="pic/ESP32Verdrahtung.png"  width="500"> 
 <br> <br>
 
-</div>
 
-### Libraries
-
-
-
-#include <WiFi.h>
-
-#include <WebServer.h>
-
-#include <Wire.h>
-
-#include <Adafruit_GFX.h> //V1.12.6 https://github.com/adafruit/Adafruit-GFX-Library
-
-#include <Adafruit_SSD1306.h> //V2.5.17 https://github.com/adafruit/Adafruit_SSD1306
-
-#include <DHT.h> //V1.4.7 https://github.com/adafruit/DHT-sensor-library
-
-//Adafruit_Sensor V1.1.15 https://github.com/adafruit/Adafruit_Sensor
-
-
-<div align="center">
- 
 ### ESP32 Dev Kit V4 Shield
 
 <img src="pic/Shield.png"  width="500"> 
