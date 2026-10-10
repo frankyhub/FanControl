@@ -18,17 +18,17 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
  ## FanControl WEB-Dashboard
 
  <img src="pic/FanControl.gif"  width="500"> 
- 
+ <br> <br>
 
  ## FanControl WEB-Dashboard Snapshot
 
   <img src="pic/FanControl.png"  width="500"> 
-
+<br> <br>
 
  ## FanControl OLED-Display
 
 ![Bild](/pic/OLED.png)
-
+<br> <br>
  
 
 
@@ -116,7 +116,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 ### ESP32 Dev Kit V4 Boardverwalter: ESP32 Dev Module V3.3.11
 
 <img src="pic/ESP32Verdrahtung.png"  width="500"> 
-
+<br> <br>
 
 ### Libraries
 
@@ -142,12 +142,12 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 ### ESP32 Dev Kit V4 Shield
 
 <img src="pic/Shield.png"  width="500"> 
-
+<br> <br>
 
 ### Das Relaismodul
 
 <img src="pic/Relais.png" width="500"> 
-
+<br> <br>
 
 Da der ESP32 nicht ausreichend Strom zum schalten der Lüfter liefert, verwenden wir ein Relaismodul.
 
@@ -163,7 +163,7 @@ Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden s
 
 
 <img src="pic/Relais2.png" width="500"> 
-
+<br> <br>
 
 ### Relais Verdrahtung
 
@@ -172,42 +172,43 @@ Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die St
 
 <img src="pic/Verdrahtung.png" width="500"> 
 
-<br>
+<br> <br>
 
-<img src="pic/DHT11_Verdrahtung" width="500"> 
+<img src="pic/DHT11_Verdrahtung.png" width="500"> 
 
 
 ## 3D Druckteile
 
 <img src="pic/3D.png" width="500"> 
+<br> <br>
 
 ## Verdrahtung
 
 
 <img src="pic/Innen.png" width="500"> 
-
+<br> <br>
 
 ## Gehäuse
 
 ### xtool Lasercutter Datei
 
 <img src="pic/xtool.png" width="500"> 
-<br>
+<br> <br>
 
 <img src="pic/FanControl1.png" width="500"> 
-<br>
+<br> <br>
 
 <img src="pic/FanControl2.png" width="500"> 
-<br>
+<br> <br>
 
 <img src="pic/FanControl3.png" width="500"> 
-<br>
+<br> <br>
 
 <img src="pic/FanControl4.png" width="500"> 
-<br>
+<br> <br>
 
 <img src="pic/FanControl5.png" width="500"> 
-<br>
+<br> <br>
 
 
 
