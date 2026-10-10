@@ -162,19 +162,23 @@ Die externe Spannungsversorgung für die Lüfter wird am Wechslerkontakt der Rel
 Die Masse (GND) der externen Quelle und des Microcontrollers müssen verbunden sein (Common Ground). 
 
 
+### Relais Verdrahtung
+
 <img src="pic/Relais2.png" width="500"> 
 <br> <br>
 
-### Relais Verdrahtung
+
 
 Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die Steuerung einer LED oder die Ansteuerung eines anderen Aktors. Der Relaisausgang schaltet mit einem LOW Signal. Bei einem HIGH Signal vom ESP32, ist das Relais in Ruhestellung. 
 
 
 <img src="pic/Verdrahtung.png" width="500"> 
-
 <br> <br>
 
-<img src="pic/DHT11_Verdrahtung.png" width="500"> 
+### DHZ11/22 Verdrahtung
+
+<img src="pic/DHT11_Verdrahtung.png" width="500" high="600"> 
+<br> <br>
 
 
 ## 3D Druckteile
