@@ -118,9 +118,11 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 <img src="pic/ESP32Verdrahtung.png"  width="500"> 
 <br> <br>
 
+</div>
+
 ### Libraries
 
-</div>
+
 
 #include <WiFi.h>
 
@@ -175,9 +177,9 @@ Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die St
 <img src="pic/Verdrahtung.png" width="500"> 
 <br> <br>
 
-### DHZ11/22 Verdrahtung
+### DHT11/22 Verdrahtung
 
-<img src="pic/DHT11_Verdrahtung.png" width="500" high="600"> 
+<img src="pic/DHT11_Verdrahtung.png" width="500" height="600"> 
 <br> <br>
 
 
