@@ -19,22 +19,19 @@ In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luf
 
 Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung, der bereits mit der WARNUNG: TEMP HOCH (gelbe LED) einschaltet.
 
- ## FanControl WEB-Dashboard
-
-
- ## FanControl WEB-Dashboard Snapshot
+ ### FanControl WEB-Dashboard Snapshot
 
 <img src="pic/FanControl.png"  width="500"> 
 <br> <br>
 
- ## FanControl OLED-Display
+ ### FanControl OLED-Display
 
 <img src="pic/OLED.png"  width="500"> 
 <br> <br>
 
 
 
-## Hardware
+### Hardware
 
 | Stück | Beschreibung | 
 | -------- | -------- | 
@@ -62,7 +59,7 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 | 1 | Holzkleber  | 
 | -------- | -------- |  
 
-##  Verdrahtung
+### Verdrahtung
 
 | OLED-Display | ESP32 |
 | -------- | -------- | 
@@ -163,18 +160,18 @@ Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die St
 <br> <br>
 
 
-## 3D Druckteile
+### 3D Druckteile
 
 <img src="pic/3D.png" width="500"> 
 <br> <br>
 
-## FanControl Verdrahtung
+### FanControl Verdrahtung
 
 
 <img src="pic/Innen.png" width="500"> 
 <br> <br>
 
-## Gehäuse
+### Gehäuse
 
 ### xtool Lasercutter Datei
 
