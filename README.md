@@ -11,6 +11,8 @@
 
  <img src="pic/FanControl.gif"  width="500"> 
  <br> <br>
+ 
+</div>  
 
 ## Story
 In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luftfeuchtigkeit in Echtzeit überwacht, Lüfter bei Grenzwerten automatisch steuert und eine komfortable Überwachung per Web-Dashboard und OLED-Display ermöglicht. Drei LEDs grün (TEMPERATUR OK), orange (WARNUNG: TEMP HOCH) und rot (KÜHLUNG AKTIV) zeigen den Temperaturstatus an. Liegt die IST-Temperatur über der SOLL-Temperatur leuchtet die rote LED und zwei Relais-Ausgänge schalten die beiden Lüfter ein. Der Temperatur-Grenzwert (ALARM-PARAMETER) kann am WEB-Dashboard mit der Tastatur oder der Maus verändert werden. 
