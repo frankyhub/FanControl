@@ -8,7 +8,9 @@
 <a href="https://github.com/frankyhub/FanControl/issues">![GitHub issues](https://img.shields.io/github/issues/frankyhub/FanControl)![GitHub closed issues](https://img.shields.io/github/issues-closed/frankyhub/FanControl)|<a href="https://github.com/frankyhub/FanControl/discussions">![GitHub Discussions](https://img.shields.io/github/discussions/frankyhub/FanControl)|<a href="https://github.com/frankyhub/FanControl/releases">![GitHub release (with filter)](https://img.shields.io/github/v/release/frankyhub/FanControl)|![Static Badge](https://img.shields.io/badge/RepoNr.:-%20124-blue)|
 |![GitHub Created At](https://img.shields.io/github/created-at/frankyhub/FanControl)| <a href="https://github.com/frankyhub/FanControl/pulse" alt="Activity"><img src="https://img.shields.io/github/commit-activity/m/badges/shields" />| <a href="https://github.com/frankyhub/FanControl/graphs/traffic"><img alt="ViewCount" src="https://views.whatilearened.today/views/github/frankyhub/github-clone-count-badge.svg">  |<a href="https://github.com/frankyhub?tab=stars"> ![GitHub User's stars](https://img.shields.io/github/stars/frankyhub)|
 
----
+
+ <img src="pic/FanControl.gif"  width="500"> 
+ <br> <br>
 
 ## Story
 In diesem Projekt wird ein ESP32-Kühlsystem aufgebaut, das Temperatur sowie Luftfeuchtigkeit in Echtzeit überwacht, Lüfter bei Grenzwerten automatisch steuert und eine komfortable Überwachung per Web-Dashboard und OLED-Display ermöglicht. Drei LEDs grün (TEMPERATUR OK), orange (WARNUNG: TEMP HOCH) und rot (KÜHLUNG AKTIV) zeigen den Temperaturstatus an. Liegt die IST-Temperatur über der SOLL-Temperatur leuchtet die rote LED und zwei Relais-Ausgänge schalten die beiden Lüfter ein. Der Temperatur-Grenzwert (ALARM-PARAMETER) kann am WEB-Dashboard mit der Tastatur oder der Maus verändert werden. 
@@ -17,19 +19,17 @@ Das Programm FanControR3.ino stellt einen dritten Relais-Ausgang zur Verfügung,
 
  ## FanControl WEB-Dashboard
 
- <img src="pic/FanControl.gif"  width="500"> 
- <br> <br>
 
  ## FanControl WEB-Dashboard Snapshot
 
-  <img src="pic/FanControl.png"  width="500"> 
+<img src="pic/FanControl.png"  width="500"> 
 <br> <br>
 
  ## FanControl OLED-Display
 
-![Bild](/pic/OLED.png)
+<img src="pic/OLED.png"  width="500"> 
 <br> <br>
- 
+
 
 
 ## Hardware
@@ -195,8 +195,6 @@ Der Code, um ein Relais mit dem ESP32 zu steuern, ist genauso einfach wie die St
 
 <img src="pic/FanControl5.png" width="500"> 
 <br> <br>
-
-
 
 ---
 
